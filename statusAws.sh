@@ -12,6 +12,7 @@ set -e
 set -o
 set -x
 
+
 echo "The status of s3 buckets being used: "
 aws s3 ls
 
